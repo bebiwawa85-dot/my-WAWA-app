@@ -9,4 +9,3 @@ openai
 google-cloud-texttospeech
 google-auth
 pymediainfo
-pyaudioop
