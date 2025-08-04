@@ -14,7 +14,13 @@ import streamlit as st
 import openai
 from dotenv import load_dotenv
 from google.cloud import texttospeech
-from pydub import AudioSegment
+from moviepy.editor import AudioFileClip, concatenate_audioclips
+
+audio1 = AudioFileClip("a.mp3")
+audio2 = AudioFileClip("b.mp3")
+final = concatenate_audioclips([audio1, audio2])
+final.write_audiofile("out.mp3")
+
 # ตรวจสอบให้แน่ใจว่า final_video_generator.py อยู่ใน directory เดียวกันกับ app.py หรืออยู่ใน path ที่ Python สามารถ import ได้
 from final_video_generator import generate_final_video
 # หมายเหตุ: ในการใช้ pydub คุณอาจต้องติดตั้ง ffmpeg ในระบบของคุณด้วย
