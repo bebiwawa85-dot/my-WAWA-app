@@ -8,3 +8,5 @@ python-dotenv==1.0.1
 pymediainfo==6.1.0
 google-cloud-texttospeech
 google-auth
+openai
+google-cloud-texttospeech
