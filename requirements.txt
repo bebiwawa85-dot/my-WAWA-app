@@ -9,4 +9,3 @@ pymediainfo==6.1.0
 google-cloud-texttospeech
 google-auth
 openai
-google-cloud-texttospeech
