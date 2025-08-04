@@ -11,3 +11,4 @@ google-auth
 pymediainfo
 imageio[ffmpeg]
 PyAudio  # <--- เปลี่ยนจาก pyaudioop เป็น PyAudio
+RUN pip
