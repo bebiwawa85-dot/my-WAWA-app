@@ -8,4 +8,4 @@ python-dotenv
 openai
 google-cloud-texttospeech
 google-auth
-# pymediainfo   <-- ถ้ายัง error ให้งดไว้ก่อน
+pymediainfo
